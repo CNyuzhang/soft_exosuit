@@ -1,0 +1,15 @@
+.\objects\ltdc.o: ..\src\HARDWARE\LCD\ltdc.c
+.\objects\ltdc.o: ..\src\HARDWARE\LCD\lcd.h
+.\objects\ltdc.o: ..\src\SYSTEM\sys\sys.h
+.\objects\ltdc.o: ..\src\SYSTEM\sys\stm32f7xx.h
+.\objects\ltdc.o: ..\src\SYSTEM\sys\stm32f767xx.h
+.\objects\ltdc.o: ..\src\SYSTEM\sys\core_cm7.h
+.\objects\ltdc.o: E:\development\MDK\Core\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ltdc.o: ..\src\SYSTEM\sys\core_cmInstr.h
+.\objects\ltdc.o: ..\src\SYSTEM\sys\cmsis_armcc.h
+.\objects\ltdc.o: ..\src\SYSTEM\sys\core_cmFunc.h
+.\objects\ltdc.o: ..\src\SYSTEM\sys\core_cmSimd.h
+.\objects\ltdc.o: ..\src\SYSTEM\sys\system_stm32f7xx.h
+.\objects\ltdc.o: E:\development\MDK\Core\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\ltdc.o: ..\src\HARDWARE\LCD\ltdc.h
+.\objects\ltdc.o: ..\src\SYSTEM\delay\delay.h

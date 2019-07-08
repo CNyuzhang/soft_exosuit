@@ -1,0 +1,12 @@
+.\objects\led.o: ..\src\HARDWARE\LED\led.c
+.\objects\led.o: ..\src\HARDWARE\LED\led.h
+.\objects\led.o: ..\src\SYSTEM\sys\sys.h
+.\objects\led.o: ..\src\SYSTEM\sys\stm32f7xx.h
+.\objects\led.o: ..\src\SYSTEM\sys\stm32f767xx.h
+.\objects\led.o: ..\src\SYSTEM\sys\core_cm7.h
+.\objects\led.o: E:\development\MDK\Core\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\led.o: ..\src\SYSTEM\sys\core_cmInstr.h
+.\objects\led.o: ..\src\SYSTEM\sys\cmsis_armcc.h
+.\objects\led.o: ..\src\SYSTEM\sys\core_cmFunc.h
+.\objects\led.o: ..\src\SYSTEM\sys\core_cmSimd.h
+.\objects\led.o: ..\src\SYSTEM\sys\system_stm32f7xx.h
