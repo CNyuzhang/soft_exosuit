@@ -447,6 +447,11 @@
               <FileType>1</FileType>
               <FilePath>..\src\HARDWARE\soft_switch\soft_switch.c</FilePath>
             </File>
+            <File>
+              <FileName>timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\HARDWARE\TIMER\timer.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

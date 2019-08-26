@@ -1055,12 +1055,12 @@ ARM Macro Assembler    Page 17
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M7.fp.dp --apcs=
 interwork --depend=.\objects\startup_stm32f767xx.d -o.\objects\startup_stm32f76
-7xx.o -IC:\Users\zhangyu\Desktop\F7_Board\project\RTE -I"D:\Program Files (x86)
-\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F7xx\I
-nclude" -I"D:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include" --predefine="__EVA
-L SETA 1" --predefine="__UVISION_VERSION SETA 520" --predefine="STM32F767xx SET
-A 1" --list=.\listings\startup_stm32f767xx.lst ..\src\startup\startup_stm32f767
-xx.s
+7xx.o -IC:\Users\zhangyu\Desktop\soft_exosuit\F7_Board\project\RTE -I"D:\Progra
+m Files (x86)\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\CMSIS\Device\S
+T\STM32F7xx\Include" -I"D:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include" --pre
+define="__EVAL SETA 1" --predefine="__UVISION_VERSION SETA 520" --predefine="ST
+M32F767xx SETA 1" --list=.\listings\startup_stm32f767xx.lst ..\src\startup\star
+tup_stm32f767xx.s
 
 
 

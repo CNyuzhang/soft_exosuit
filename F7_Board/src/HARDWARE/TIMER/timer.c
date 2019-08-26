@@ -20,14 +20,19 @@
 //V1.3 20160713
 //新增TIM9_CH2_PWM_Init函数,用于PWM DAC实验					  
 ////////////////////////////////////////////////////////////////////////////////// 	 
-
+extern int STEP, NODE1_FLAG, NODE2_FLAG;
+int timer_interrupt_number =0;
 //定时器3中断服务程序	 
 void TIM3_IRQHandler(void)
 { 		  
 	static u8 led1sta=1;
 	if(TIM3->SR&0X0001)//溢出中断
 	{
-		LED1(led1sta^=1);			    				   				     	    	
+		timer_interrupt_number ++;
+		if(timer_interrupt_number/STEP == 1)
+			NODE1_FLAG =1;
+		else if(timer_interrupt_number/STEP ==2)
+		{NODE2_FLAG = 1;timer_interrupt_number=0;}			    				   				     	    	
 	}				   
 	TIM3->SR&=~(1<<0);//清除中断标志位 	    
 }

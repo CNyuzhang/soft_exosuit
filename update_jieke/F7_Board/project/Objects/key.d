@@ -1,0 +1,13 @@
+.\objects\key.o: ..\src\HARDWARE\KEY\key.c
+.\objects\key.o: ..\src\HARDWARE\KEY\key.h
+.\objects\key.o: ..\src\SYSTEM\sys\sys.h
+.\objects\key.o: ..\src\SYSTEM\sys\stm32f7xx.h
+.\objects\key.o: ..\src\SYSTEM\sys\stm32f767xx.h
+.\objects\key.o: ..\src\SYSTEM\sys\core_cm7.h
+.\objects\key.o: E:\development\MDK\Core\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\key.o: ..\src\SYSTEM\sys\core_cmInstr.h
+.\objects\key.o: ..\src\SYSTEM\sys\cmsis_armcc.h
+.\objects\key.o: ..\src\SYSTEM\sys\core_cmFunc.h
+.\objects\key.o: ..\src\SYSTEM\sys\core_cmSimd.h
+.\objects\key.o: ..\src\SYSTEM\sys\system_stm32f7xx.h
+.\objects\key.o: ..\src\SYSTEM\delay\delay.h

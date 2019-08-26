@@ -30,3 +30,4 @@
 .\objects\test.o: ..\src\app\pid.h
 .\objects\test.o: ..\src\app\test.h
 .\objects\test.o: ..\src\HARDWARE\soft_switch\soft_switch.h
+.\objects\test.o: ..\src\HARDWARE\TIMER\timer.h

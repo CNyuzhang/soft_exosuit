@@ -11,6 +11,7 @@
 ".\objects\copley_node2.o"
 ".\objects\uart.o"
 ".\objects\soft_switch.o"
+".\objects\timer.o"
 ".\objects\usmart.o"
 ".\objects\usmart_config.o"
 ".\objects\usmart_str.o"

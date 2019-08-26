@@ -1,0 +1,24 @@
+--cpu Cortex-M7.fp.dp
+".\objects\test.o"
+".\objects\pid.o"
+".\objects\lrn.o"
+".\objects\startup_stm32f767xx.o"
+".\objects\mpu.o"
+".\objects\sdram.o"
+".\objects\can.o"
+".\objects\copley_control.o"
+".\objects\copley_node1.o"
+".\objects\copley_node2.o"
+".\objects\uart.o"
+".\objects\soft_switch.o"
+".\objects\usmart.o"
+".\objects\usmart_config.o"
+".\objects\usmart_str.o"
+".\objects\delay.o"
+".\objects\sys.o"
+".\objects\usart.o"
+".\objects\ano.o"
+--strict --scatter ".\Objects\F7_Board.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\F7_Board.map" -o .\Objects\F7_Board.axf
